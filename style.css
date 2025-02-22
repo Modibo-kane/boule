@@ -23,9 +23,9 @@ body{
 }
 
 .balle{
-    width: 10%;
-    height: 10%;
-    border-radius: 80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     margin: auto; 
     position: absolute;
     box-shadow: inset 5px 5px 5px 1px rgb(47, 53, 55);
@@ -36,14 +36,14 @@ body{
     left: 45%;
     top: 30%;
     background-color: blueviolet;
-    animation: b1 2s ease infinite;
+    animation: b1 5s ease infinite;
 }
 
 .b2{
     left: 45%;
     top: 60%;
     background-color: rgb(226, 43, 202);
-    animation: b2 2s ease infinite;
+    animation: b2 5s ease infinite;
 }
 
 
@@ -51,14 +51,14 @@ body{
     left: 25%;
     top: 45%;
     background-color: rgb(238, 250, 9);
-    animation: b3 2s ease infinite;
+    animation: b3 5s ease infinite;
 }
 
 .b4{
     left: 65%;
     top: 45%;
     background-color: rgb(38, 232, 16);
-    animation: b4 2s ease infinite;
+    animation: b4 5s ease infinite;
 }
 
 
