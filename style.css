@@ -14,7 +14,7 @@ body{
 .conteneur{
     background-color: aquamarine;
     width: 50%;
-    height: 50%;
+    height: 80%;
     border: solid 5px;
     border-radius: 20px;
     margin: auto;
@@ -25,7 +25,7 @@ body{
 .balle{
     width: 10%;
     height: 10%;
-    border-radius: 50%;
+    border-radius: 80px;
     margin: auto; 
     position: absolute;
     box-shadow: inset 5px 5px 5px 1px rgb(47, 53, 55);
@@ -67,13 +67,13 @@ body{
         transform: translate(0) rotate(0deg);
     }
     25% {
-        transform: translateX(75px) translateY(56.5px) rotate(90deg);
+        transform: translateX(154px) translateY(90px) ;
     }
     50% {
-        transform: translateX(3px) translateY(116px) rotate(180deg);
+        transform: translateX(0px) translateY(180px) ;
     }
     75% {
-        transform: translateX(-77px) translateY(55px) rotate(270deg);
+        transform: translateX(-158px) translateY(90px) ;
     }
     100% {
         /* transform: translate(-50px, 0) rotate(360deg); */
@@ -85,16 +85,16 @@ body{
         transform: translate(0) rotate(0deg);
     }
     25% {
-        transform: translateX(-75px) translateY(-56.5px) rotate(90deg);
+        transform: translateX(-154px) translateY(-90px) /*rotate(90deg)*/;
     }
     50% {
-        transform: translateX(-3px) translateY(-116px) rotate(180deg);
+        transform: translateX(0px) translateY(-186px) ;
     }
     75% {
-        transform: translateX(77px) translateY(-55px) rotate(270deg);
+        transform: translateX(155px) translateY(-88px) ;
     }
     100% {
-        transform: translateX(0) translateY(0) rotate(360deg);
+        transform: translateX(0) translateY(0) ;
     }
 }
 
@@ -104,16 +104,16 @@ body{
         transform: translate(0) rotate(0deg);
     }
     25% {
-        transform: translateX(75px) translateY(-56.5px) rotate(90deg);
+        transform: translateX(147px) translateY(-99.5px);
     }
     50% {
-        transform: translateX(149px) translateY(2px) rotate(180deg);
+        transform: translateX(309px) translateY(2px) ;
     }
     75% {
-        transform: translateX(75px) translateY(56.5px)  rotate(270deg);
+        transform: translateX(150px) translateY(90px) ;
     }
     100% {
-        transform: translate(0) rotate(360deg);
+        transform: translate(0) ;
     }
 }
 
@@ -122,13 +122,13 @@ body{
         transform: translate(0) rotate(0deg);
     }
     25% {
-        transform: translateX(-77px) translateY(57px) rotate(90deg);
+        transform: translateX(-150px) translateY(90px) ;
     }
     50% {
-        transform: translateX(-151px) translateY(0px) rotate(180deg);
+        transform: translateX(-305px) translateY(5px);
     }
     75% {
-        transform: translateX(-75px) translateY(-56.5px) rotate(270deg);
+        transform: translateX(-155px) translateY(-95px);
     }
     100% {
         transform: translate(0) rotate(360deg);
